@@ -12,7 +12,7 @@ and you can't score flops without catching a SNURTLE!
 
 
 * Your task is to select the 3 finalists out of the 30 compeitiors.  To be eligible the competior MUST of accumulated enough
-flops to accrue a score.  In order to qualify for the finals, they must have at least 6 scorable floppings.
+flops to accrue a score.  In order to qualify for the finals, they must have at least 7 scorable floppings.
 
 * The final score for each compeitor is the avg of the scores, EXCLUDING the best and worst score.
 
@@ -26,12 +26,14 @@ person_1:
  - 57 # lowest score is removed
  - 90
  - 77
-person_2: #disqualified, didn't finish 6 runs
+ - 82
+person_2: #disqualified, didn't score the min number of floppings
  - 99
  - 88
  - 99
  - 77
  - 85
+ - 98
 ```
 
 * Select the top 3 based on the above criteria, don't worry about rounding, but the averages should be floating point numbers
