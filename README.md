@@ -12,7 +12,7 @@ and you can't score flops without catching a SNURTLE!
 
 
 * Your task is to select the 3 finalists out of the 30 compeitiors.  To be eligible the competior MUST of accumulated enough
-flops to accrue a score.  In order to qualify for the finals, they must have at least **7 scorable floppings.**
+flops to accrue a score.  In order to qualify for the finals, they must have **AT LEAST 7 scorable floppings.**
 
 * The final score for each compeitor is the avg of the scores, **EXCLUDING the best and worst score.**
 
