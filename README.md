@@ -6,15 +6,15 @@ Snurtle Flopping(TM) Competition - coding challenge
 Snurlte Flopping is the newest craze taking over all of North Central Tasmania!  These year's rounds were some of the best
 we have ever seen. There are 30 amazing Flopper's in this year's prelimns.
 
-In the prelimary rounds the competitors were give 60 minutes to score as many flops as possible.  But, some weren't able
+In the prelimary rounds the competitors were given 60 minutes to score as many flops as possible.  But, some weren't able
 to finish as many rounds as they needed to qualify for the finals because as we all know, the snurtle's are hard to catch 
 and you can't score flops without catching a SNURTLE!
 
 
 * Your task is to select the 3 finalists out of the 30 compeitiors.  To be eligible the competior MUST of accumulated enough
-flops to accrue a score.  In order to qualify for the finals, they must have at least 7 scorable floppings.
+flops to accrue a score.  In order to qualify for the finals, they must have at least **7 scorable floppings.**
 
-* The final score for each compeitor is the avg of the scores, EXCLUDING the best and worst score.
+* The final score for each compeitor is the avg of the scores, **EXCLUDING the best and worst score.**
 
 e.x.
 ```
