@@ -4,7 +4,7 @@ Snurtle Flopping(TM) Competition - coding challenge
 =========
 
 Snurlte Flopping is the newest craze taking over all of North Central Tasmania!  These year's rounds were some of the best
-we have ever seen. There are 30 amazing Flopper's in this year's prelimns.
+we have ever seen. There are 30 amazing Flopper's in this year's prelims.
 
 In the prelimary rounds the competitors were given 60 minutes to score as many flops as possible.  But, some weren't able
 to finish as many rounds as they needed to qualify for the finals because as we all know, the snurtle's are hard to catch 
