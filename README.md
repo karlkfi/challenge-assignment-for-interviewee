@@ -40,16 +40,17 @@ person_2: #disqualified, didn't score the min number of floppings
 
 * output should be of the form
 ```
+---
 winners:
-  - name: Cal Ripken
-    avg: 76.3333333
-  - name: Boy George
-    avg: 73.2
-  - name: Dwight Schrute
-    avg: 70
+- name: Cal Ripken
+  avg: 76.3333333
+- name: Boy George
+  avg: 73.2
+- name: Dwight Schrute
+  avg: 70
 disqualifications:
-  - Dougie Fresh
-  - Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr.
+- Dougie Fresh
+- Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr.
 ```
 
 * The scores are in the `scores.yaml` file
