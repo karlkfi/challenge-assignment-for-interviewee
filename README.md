@@ -38,7 +38,7 @@ person_2: #disqualified, didn't score the min number of floppings
 
 * Select the top 3 based on the above criteria, don't worry about rounding, but the averages should be floating point numbers
 
-* output should be of the form
+* output should be of the form: (below is only an example, not the actual results you will generate, but the format is correct)
 ```
 ---
 winners:
