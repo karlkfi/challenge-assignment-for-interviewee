@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"sort"
+	"strings"
 
 	"sigs.k8s.io/yaml"
 )
@@ -63,7 +64,14 @@ func main() {
 	sort.Slice(out.Winners, func(i, j int) bool {
 		return out.Winners[i].Avg > out.Winners[j].Avg
 	})
-	out.Winners = out.Winners[:3]
+	if len(out.Winners) > 3 {
+		out.Winners = out.Winners[:3]
+	}
+
+	// sort disqualifications, so the result is stable
+	sort.Slice(out.Disqualifications, func(i, j int) bool {
+		return strings.Compare(out.Disqualifications[i], out.Disqualifications[j]) < 0
+	})
 
 	err = writeResults(out, "results.yaml")
 	if err != nil {
