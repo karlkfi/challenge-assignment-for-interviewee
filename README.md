@@ -1,5 +1,3 @@
-
-
 Snurtle Flopping(TM) Competition - coding challenge
 =========
 
@@ -56,3 +54,8 @@ disqualifications:
 * The scores are in the `scores.yaml` file
 * Please output your resutls in yaml, into a file called `results.yaml`
 
+# Usage
+
+```
+go run main.go
+```
